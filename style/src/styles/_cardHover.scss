@@ -8,7 +8,7 @@
 body {
   display: flex;
   justify-content: center;
-  align-items: center;
+  //align-items: center;
   min-height: 100vh;
   background: #171717;
 }
@@ -50,7 +50,7 @@ body {
 
       p {
         color: white;
-        font-size: 16px;
+        font-size: 15px;
         text-align: justify;
         transition: .5s;
         margin: 20px auto;
@@ -60,14 +60,17 @@ body {
         text-decoration: none;
         font-size: 16px;
         color: white;
-        padding: 10px 40px;
+        padding: 10px 20px;
         background: rgba(0, 0, 0, .5);
         border: 1px solid rgba(0, 0, 0, .1);
         transition: .5s;
+        border-radius: 10px;
       }
-      a:hover{
+
+      a:hover {
         background: white;
         color: black;
+        font-weight: bolder;
       }
     }
 
