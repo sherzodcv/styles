@@ -13,7 +13,7 @@
     will-change: transform;
     transition: transform .5s;
 
-    .box-title{
+    .box-title {
       font-size: 30px;
       color: white;
       position: absolute;
@@ -24,10 +24,11 @@
     }
   }
 
-  .boxx:hover{
+  .boxx:hover {
     transform: translateZ(10px) rotateX(20deg) rotateY(30deg);
   }
-  .boxx:hover .card-title{
+
+  .boxx:hover .card-title {
     transform: translateZ(50px);
   }
 }
